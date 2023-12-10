@@ -76,3 +76,13 @@ a{
   background-blend-mode: screen, color-dodge, overlay, difference, normal;
 
 }
+
+.bg-sec{
+    background: url(bg.gif);
+    background-size: cover;
+}
+
+
+
+
+
