@@ -82,7 +82,16 @@ a{
     background-size: cover;
 }
 
+.abt-img2{
+    border-radius: 1.5rem;
+}
+ .colored{
+    color: #d31a58;
+ }
+ .arrowcolor{
+    color: #456beb;
+ }
 
-
-
-
+.bg-founder{
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%) ;
+}
