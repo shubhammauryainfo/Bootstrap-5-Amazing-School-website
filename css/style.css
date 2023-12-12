@@ -103,3 +103,17 @@ a{
     justify-content: center;
    
 }
+
+
+/* css for notice/ notes section */
+.data-sheet{
+    height: 500px;
+    width: 800px;
+}
+
+@media (max-width:992px) {
+    .data-sheet{
+        height: 500px;
+        width: 340px;
+    } 
+}
