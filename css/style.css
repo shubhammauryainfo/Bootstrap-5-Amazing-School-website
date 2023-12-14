@@ -117,3 +117,43 @@ a{
         width: 340px;
     } 
 }
+
+/* 
+thankyou page css */
+
+
+
+
+.thankyou-wrapper p{
+  font:24px Arial, Helvetica, sans-serif;
+  text-align:center;
+  color:#333333;
+  padding:5px 8px 8px;
+}
+.thankyou-wrapper a{
+  font:26px Arial, Helvetica, sans-serif;
+  text-align:center;
+  color:#ffffff;
+  display:block;
+  text-decoration:none;
+  width:250px;
+  background:#E47425;
+  margin:10px auto 0px;
+  padding:15px 20px 15px;
+  border-bottom:5px solid #F96700;
+ border-radius: 1.5rem;
+}
+.thankyou-wrapper a:hover{
+  font:26px Arial, Helvetica, sans-serif;
+  text-align:center;
+  color:#ffffff;
+  display:block;
+  text-decoration:none;
+  width:250px;
+  background:#F96700;
+  margin:10px auto 0px;
+  padding:15px 20px 15px;
+  border-bottom:5px solid #F96700;
+
+}
+
