@@ -8,7 +8,7 @@
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
-
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <!-- Bootstrap CSS v5.2.1 -->
         <link rel="icon" type="image/x-icon" href="favicon.ico">
         <link
@@ -255,7 +255,7 @@
 <!--  footer start -->
 
 <!-- Footer -->
-<footer class="bg-body-tertiary text-center">
+<footer class="bg-body-tertiary text-center" data-aos="fade-up">
   <!-- Grid container -->
   <div class="container p-4">
     <!-- Section: Social media -->
@@ -350,5 +350,13 @@
         const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
         const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
     </script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+      offset: 160,
+  delay: 600,
+    });
+</script>
     </body>
 </html>

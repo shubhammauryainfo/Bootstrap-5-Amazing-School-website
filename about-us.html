@@ -8,7 +8,7 @@
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
-
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <!-- Bootstrap CSS v5.2.1 -->
         <link rel="icon" type="image/x-icon" href="favicon.ico">
         <link
@@ -81,11 +81,11 @@
 <section>
   <h4 class="pt-4 text-center fw-bold">Academic excellence, high standards & quality education with individual attention.</h4>
 <div class="container py-5">
-  <div class="row col-xxl-12">
-    <div class="col-md-6 col-lg-6">
+  <div class="row col-xxl-12" data-aos="slide-up">
+    <div class="col-md-6 col-lg-6" data-aos="fade-left">
    <img src="img/about/section-image-1.png" class="img-fluid">
     </div>
-   <div class="col-md-6 col-lg-6">
+   <div class="col-md-6 col-lg-6" data-aos="fade-right">
 
     <p>We aim to wake up the young students to the hard realities of life & the highly competitive scenario which is fast emerging & limiting the opportunities.</p>
     <p>We encourage our students for field trips & interactive projects to let them to try new things.</p>
@@ -110,7 +110,7 @@
 
 <section class="py-2">
 <div class="container py-1">
-  <div class="row col-xxl-12">
+  <div class="row col-xxl-12"  data-aos="fade-up">
     <h3>We OFFER best of best Education</h3>
    
    <div class="col-md-6 col-lg-6">
@@ -137,13 +137,13 @@
 </div>
 </section>
 
-<section class="mt-2 py-4 bg-founder">
+<section class="mt-2 py-4 bg-founder" data-aos="fade-up">
 
   <h2 class="text-center text-uppercase">our founder's</h2>
   <hr class="border border-warning w-23 mx-auto border-2 opacity-75 ">
 
   <div class="container-fluid ">
-  <div class="row justify-content-center">
+  <div class="row justify-content-center" data-aos="flip-up">
       <div class="card mx-5 my-2" style="width: 18rem;">
         <img src="img/about/img.png" class="card-img-top" alt="img/about/img.png">
         <div class="card-body">
@@ -176,7 +176,7 @@
       </div>
      
  
-      <div class="card mx-5 my-2" style="width: 18rem;">
+      <div class="card mx-5 my-2" style="width: 18rem;" data-aos="flip-up">
         <img src="img/about/img.png" class="card-img-top" alt="img/about/img.png">
         <div class="card-body">
           <h3 class="text-uppercase text-center fw-bolder">co-founder</h3>
@@ -214,7 +214,7 @@
 <!--  footer start -->
 
 <!-- Footer -->
-<footer class="bg-body-tertiary text-center">
+<footer class="bg-body-tertiary text-center"  data-aos="fade-up">
   <!-- Grid container -->
   <div class="container p-4">
     <!-- Section: Social media -->
@@ -309,5 +309,14 @@
         const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
         const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
     </script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+      offset: 100,
+  delay: 400,
+    });
+</script>
+
     </body>
 </html>

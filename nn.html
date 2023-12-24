@@ -8,7 +8,7 @@
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
-
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <!-- Bootstrap CSS v5.2.1 -->
         <link rel="icon" type="image/x-icon" href="favicon.ico">
         <link
@@ -71,14 +71,14 @@
         </header>
 
 <main>
-<div class="container-fluid bg-sec">
+<div class="container-fluid bg-sec" >
   <div class="row col-xxl-12  pb-0">
 <h1 class="text-uppercase text-center">Notices / notes</h1>
   </div>
 </div>
 </main>
 
-<section class="my-3 py-2 bg-founder" >
+<section class="my-3 py-2 bg-founder" data-aos="fade-up" >
   <h3 class="text-center fw-bolder">2023</h3>
   <div class="container">
     <div class="text-center ">
@@ -222,5 +222,13 @@
         const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
         const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
     </script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+      offset: 160,
+  delay: 600,
+    });
+</script>
     </body>
 </html>

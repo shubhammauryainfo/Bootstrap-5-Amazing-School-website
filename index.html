@@ -12,7 +12,7 @@
 <meta name="keywords" content="Shree Academy, education, courses, tutoring, study materials, learning platform">
 
 
-
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <!-- Bootstrap CSS v5.2.1 -->
         <link rel="icon" type="image/x-icon" href="favicon.ico">
         <link
@@ -107,7 +107,7 @@
 
           <div class="container">
         
-        <div class="row ">
+        <div class="row " data-aos="fade-up">
               <div class="col-xxl-12">
         <h3 class="text-center py-1 fw-bolder">Welcome to <strong>SHREE ACADEMY</strong> - <span class="bg-warning">Educational</span> Institution</h3>
       <p class="text-center py-1 fw-bold">SHREE ACADEMY aims at providing education to our younger generation in the best traditions of Indian Culture and civilization, inculcating them moral and intellectual values, as enshrined in our ancient literature and traditions.</p>
@@ -121,7 +121,7 @@
         
       </section>
 
- <section class=" py-3  bg-warning">
+ <section class=" py-3  bg-warning" data-aos="zoom-in-up">
 
   <h2 class="text-center">SPECIAL FEATURE</h2>
     <hr class="border border-light w-23 mx-auto border-2 opacity-75 ">
@@ -130,7 +130,7 @@
  
 
     <div class="d-flex flex-row bd-highlight mb-3  justify-content-center flex-wrap">
-      <div class="p-1 bd-highlight">
+      <div class="p-1 bd-highlight" data-aos="fade-up">
         
           <div class="card pt-3 " style="width: 10rem;">
             <i class="fa-solid fa-person-chalkboard fa-4x text-center"></i>
@@ -141,7 +141,7 @@
           </div>
          
       </div>
-      <div class="p-1 bd-highlight">
+      <div class="p-1 bd-highlight" data-aos="fade-up">
 
 
           <div class="card pt-3 " style="width: 10rem;">
@@ -152,7 +152,7 @@
             </div>
           </div>
       </div>
-      <div class="p-1 bd-highlight">
+      <div class="p-1 bd-highlight" data-aos="fade-up">
 
 
           <div class="card pt-3 " style="width: 10rem;">
@@ -163,7 +163,7 @@
             </div>
           </div>
       </div>
-      <div class="p-1 bd-highlight">
+      <div class="p-1 bd-highlight" data-aos="fade-up">
 
 
           <div class="card pt-3 " style="width: 10rem;">
@@ -174,7 +174,7 @@
             </div>
           </div>
       </div>
-      <div class="p-1 bd-highlight">
+      <div class="p-1 bd-highlight" data-aos="fade-up">
 
 
           <div class="card pt-3 " style="width: 10rem;">
@@ -186,7 +186,7 @@
           </div>
       </div>
 
-      <div class="p-1 bd-highlight">
+      <div class="p-1 bd-highlight" data-aos="fade-up">
 
 
         <div class="card pt-3 " style="width: 10rem;">
@@ -209,16 +209,12 @@
 
 <!-- testimonial -->
 
-<section class="bg-monial mt-2 py-4">
+<section class="bg-monial mt-2 py-4" data-aos="fade-up">
   <h2 class="text-center">TESTIMONIALS</h2>
   <hr class="border border-light w-23 mx-auto border-2 opacity-75 ">
 <div class="container py-3">
   <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
+  
     <div class="carousel-inner">
       <div class="carousel-item active">
         <div class="card bg-light">
@@ -322,7 +318,7 @@
 <!--  footer start -->
 
 <!-- Footer -->
-<footer class="bg-body-tertiary text-center">
+<footer class="bg-body-tertiary text-center" data-aos="fade-up">
   <!-- Grid container -->
   <div class="container p-4">
     <!-- Section: Social media -->
@@ -417,5 +413,13 @@
         const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
         const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
     </script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+      offset: 100,
+  delay: 400,
+    });
+</script>
     </body>
 </html>
