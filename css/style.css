@@ -8,6 +8,27 @@
     font-family: "Urbanist", sans-serif;
 }
 
+
+/* preloader */
+#preloader{
+    background: white url(loader.gif ) no-repeat center;
+    background-size:100% ;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+@media (max-width:990px) {
+    #preloader {
+       background-size: 960px ;
+       position: fixed;
+      
+    }
+}
+
+
+
 :root{
     --bs-dark-color: #1a1d20;
     --bs-dark-primary:#1c1c1c;
